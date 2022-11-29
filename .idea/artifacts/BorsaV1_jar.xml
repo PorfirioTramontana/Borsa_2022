@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BorsaV1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BorsaV2_jar</output-path>
+    <root id="archive" name="BorsaV1.jar">
+      <element id="module-output" name="BorsaV1" />
+    </root>
+  </artifact>
+</component>
