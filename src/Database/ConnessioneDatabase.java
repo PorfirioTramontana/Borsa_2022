@@ -15,7 +15,7 @@ public class ConnessioneDatabase {
 	private String driver = "org.postgresql.Driver";
 
 	// COSTRUTTORE
-	public ConnessioneDatabase() throws SQLException {
+	private ConnessioneDatabase() throws SQLException {
 		try {
 			Class.forName(driver);
 			connection = DriverManager.getConnection(url, nome, password);
